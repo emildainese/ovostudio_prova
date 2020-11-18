@@ -1,0 +1,10 @@
+Requisiti:
+L'operazione ha una validità temporale: solo durante il periodo di validità di potrà registrarsi e scaricare il buono, mentre avendo il link si potrà sempre scaricare il pdf
+L'utente può registrarsi una sola volta per ottenere il buono. 
+Solo le email appartenenti ad un singolo dominio possono ottenere il buono.
+Se l'utente tenta di registrarsi ancora con la stessa email dovrà essere visualizzato il messaggio che già un buono gli è stato assegnato e se vuole si può inviare ancora  l'email con il link.
+Vanno registrati su db i dati degli utenti forniti nel form, data e ora di registrazione (o creazione del record), informazioni necessarie per identificare il buono.
+
+Altre informazioni:
+L'hosting e servizio SMTP verranno forniti da OVOstudio. 
+Il servizio SMPT esterno è SparkPost e verrà utilizzato via API
